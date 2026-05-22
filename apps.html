@@ -9,14 +9,30 @@
 <body>   
 <header>  
     <div class="logo">TechNova</div>
-    <div class="rayas" id="rayas-open">
+    <div class="rayas" onclick="mostrarMenu()">
          <span></span>
          <span></span>
          <span></span>
       </div>
+      <div class="dropdown" id="menu">
+    <p>Inicio</p>
+    <p>Servicios</p>
+    <p>Contacto</p>
+</div>
+      <script>
+function mostrarMenu() {
+    let menu = document.getElementById("menu");
+
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
+</script>
     <nav>
          <ul class="menu">
-            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="desarrollo web.html">Desarrolo web</a></li>
          <li class="submenu">
             <a href="marketing.html">Marketing digital</a>
