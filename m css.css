@@ -29,10 +29,6 @@
    transition: color  0.3s;
 }
 
-   .menu li a:hover {
-   color: #0ea5e9;
-}
-
    .separador {
    color: white;
    font-size: 0.8rem;
