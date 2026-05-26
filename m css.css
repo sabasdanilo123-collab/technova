@@ -29,6 +29,7 @@
    transition: color  0.3s;
 }
 
+
    .separador {
    color: white;
    font-size: 0.8rem;
@@ -39,14 +40,13 @@
    position: relative;
 }
    .dropdown {
-   display: none;
-   position: absolute;
-   background: #0ea5e9;
-   top: 100%;
+   display: flex;
    left: 0;
    list-style: none;
    padding: 10px;
-   min-width: 150px; 
+   min-width: 150px;
+   gap: 20px;
+   justify-content: flex-start;
 }
 
    .submenu:hover .dropdown{
